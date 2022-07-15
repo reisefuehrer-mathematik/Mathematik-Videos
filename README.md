@@ -26,3 +26,10 @@ Der "Reiseführer Mathematik" ist ein Flipped Classroom Konzept und zugehörige 
 Das Projekt gliedert sich insgesamt grob auf in ein Lehrbuch, das zumindest den Schulstoff umfassen und anschaulich erläutern soll, Vorbereitungsblätter, die darauf ausgelegt sind, während des Lesens des Buches bearbeitet zu werden, damit der Leser den Stoff direkt vertieft, und Aufgabenblöcke, die, nachdem entsprechende Abschnitte im Buch gelesen wurden, diese weiter vertiefen sollen.
 
 # Lehrvideos
+`TODO`
+
+# Installation
+Dieses Projekt verwendet die Python 3.8 und die Bibliothek [manim](https://www.manim.community/) ([Installationsanweisung für manim](https://docs.manim.community/en/stable/installation.html)).
+
+# Projektstruktur
+`TODO`

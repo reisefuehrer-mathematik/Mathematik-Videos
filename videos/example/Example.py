@@ -2,7 +2,7 @@ from librfm.colors import *
 
 from manim import *
 
-config.background_color = BG_COLOR
+config.background_color = PRIMARY_PALETTE.get_background()
 
 class Example(Scene):
     def construct(self):
@@ -18,7 +18,7 @@ class Example(Scene):
             },
             tips=False,
         )
-        f = axes.get_graph(lambda x: x**2, color=SECOND_COLOR, x_range=[-np.sqrt(10), np.sqrt(10)])
+        f = axes.plot(lambda x: x**2, color=SECOND_COLOR, x_range=[-np.sqrt(10), np.sqrt(10)])
         g = f.copy().shift(RIGHT*2).set_color(TERTIARY_COLOR)
 
         f_label = axes.get_graph_label(f, "f(x)=x^2", direction=UP/2, x_val=-np.sqrt(10))
